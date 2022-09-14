@@ -4,8 +4,7 @@ from datetime import datetime # use for date and time
 nr=i=0
 # ticker names
 ticker=["GOOG","AAPL","MSFT","AMZN","INTC","QCOM","COST","SNAP","BABA","NFLX"]
-#instead of using an object, i went and used a huge list to link the names and
-values
+#instead of using an object, i went and used a huge list to link the names and values
 #the index would be the value and stored there would be the name
 tdata=[0] * 5000
 data=[] #saves prices
